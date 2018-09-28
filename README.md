@@ -13,6 +13,7 @@ remotes::install_github("vincentguyader/crocodile")
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
+library(crocodile)
 image_read("http://fr.web.img6.acsta.net/pictures/15/07/20/18/14/582462.jpg") %>%
 lens(dpi = 50)
 ```
