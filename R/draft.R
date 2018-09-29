@@ -9,6 +9,7 @@ safe_crop <- purrr::possibly(magick::image_crop,otherwise = NULL)
 #' @import magick
 #' @import glue
 #' @examples
+#' library(magick)
 #' image_read("http://fr.web.img6.acsta.net/pictures/15/07/20/18/14/582462.jpg") %>%
 #' slice_and_mix(dpi = 50)
 slice_and_mix <- function(img,dpi=40){
@@ -36,6 +37,7 @@ slice_and_mix <- function(img,dpi=40){
 #' @export
 #'
 #' @examples
+#' library(magick)
 #' image_read("http://fr.web.img6.acsta.net/pictures/15/07/20/18/14/582462.jpg") %>%
 #' lens(dpi = 50)
 lens <- function(img,dpi=30){

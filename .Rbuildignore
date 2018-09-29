@@ -1,2 +1,5 @@
+^README\.html$
+^README*$
+^image\.png$
 ^.*\.Rproj$
 ^\.Rproj\.user$

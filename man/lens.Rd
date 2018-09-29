@@ -15,6 +15,7 @@ lens(img, dpi = 30)
 Slice an image and reorder it twice
 }
 \examples{
+library(magick)
 image_read("http://fr.web.img6.acsta.net/pictures/15/07/20/18/14/582462.jpg") \%>\%
 lens(dpi = 50)
 }

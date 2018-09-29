@@ -1,14 +1,20 @@
 Package: crocodile
 Title: Cut, Slice and Arrange an Image
-Version: 0.0.0.9001
-Authors@R: person("vincent", "guyader", email = "vincent@thinkr.fr", role = c("aut", "cre"))
+Version: 0.0.0.9002
+Authors@R: 
+    person(given = "vincent",
+           family = "guyader",
+           role = c("aut", "cre"),
+           email = "vincent@thinkr.fr")
 Description: useless package.
-Depends: R (>= 3.4.0)
 License: GPL-3
+Depends: 
+    magick,
+    R (>= 3.4.0)
+Imports: 
+    glue,
+    magrittr,
+    purrr
 Encoding: UTF-8
 LazyData: true
-Imports: 
-    magick,
-    purrr,
-    glue
 RoxygenNote: 6.1.0

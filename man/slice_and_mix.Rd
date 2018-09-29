@@ -15,6 +15,7 @@ slice_and_mix(img, dpi = 40)
 Slice an image and reorder it
 }
 \examples{
+library(magick)
 image_read("http://fr.web.img6.acsta.net/pictures/15/07/20/18/14/582462.jpg") \%>\%
 slice_and_mix(dpi = 50)
 }
