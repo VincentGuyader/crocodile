@@ -8,6 +8,7 @@ safe_crop <- purrr::possibly(magick::image_crop,otherwise = NULL)
 #' @import purrr
 #' @import magick
 #' @import glue
+#' @import dplyr
 #' @importFrom tibble tibble
 #' @examples
 #' library(magick)
